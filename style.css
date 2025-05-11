@@ -1,0 +1,47 @@
+/*
+BODY AND GRID STYLING
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 90vw;
+  }
+.box {
+    border: 0.5px solid #ddd;
+    aspect-ratio: 1 / 1;
+}
+.output {
+    display: grid;
+    width: 80vmin;
+    height: 80vmin;
+    margin: auto;
+    
+}
+/*
+INPUT AND BUTTON STYLING
+*/
+
+input{
+  -moz-appearance: textfield;
+  width: 7em;
+  height: 3em;
+  border-radius: .75rem;
+}
+button{
+  border: 1px solid solid;
+  border-radius: .75rem;
+  height: 3.5em;
+  width: 6em;
+  font-weight:400 ;
+}
